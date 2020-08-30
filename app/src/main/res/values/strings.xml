@@ -2,4 +2,5 @@
     <string name="app_name">Barcode Keyboard</string>
     <string name="all_barcodes">All barcodes</string>
     <string name="grant_perm">Allow camera use</string>
+    <string name="settings_text">Open any text field and select barcode keyboard as an input method, then scan any QR code.\n\nBuilt by Raphael Michel\n\nReleased under Apache License 2.0\n\nBased on the barcodescanner-view project by dm77 (Apache License 2.0) and the ZXing project by Google (Apache License 2.0).\n\nSource code at https://github.com/raphaelm/android-barcode-keyboard</string>
 </resources>
