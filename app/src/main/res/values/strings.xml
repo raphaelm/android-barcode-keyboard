@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Barcode Keyboard</string>
+    <string name="all_barcodes">All barcodes</string>
+    <string name="grant_perm">Allow camera use</string>
+</resources>
