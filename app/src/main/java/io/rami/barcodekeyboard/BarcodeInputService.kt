@@ -66,7 +66,7 @@ class BarcodeInputService : InputMethodService(), ZXingScannerView.ResultHandler
         lastTime = System.currentTimeMillis()
         currentInputConnection.also { ic: InputConnection ->
             ic.commitText(rawResult.text, 1)
-            ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER))
+            ic.sendKeyEvent(KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER))
         }
     }
 }
